@@ -1,7 +1,7 @@
 # BookFinder
 The Book Search App is a web application that allows users to search for books by entering a query such as title or author. The application makes use of the Google Books API to retrieve a list of books based on the user's search query and displays them on the page.
 
-Features
+# Features
 <br>
 User can enter a search query into an input field.
 User can submit the query, which triggers a call to the Google Books API to fetch the matching books.
@@ -11,7 +11,7 @@ The application has a responsive design, ensuring a good user experience across 
 A loading animation is displayed while waiting for the API response.
 
 
-Technologies Used
+# Technologies Used
 <br>
 HTML
 CSS
@@ -28,13 +28,13 @@ Click on the book title link to view more information about the book on an exter
 Screenshots
 Include screenshots of the application to provide visual representation and showcase its features.
 
-Contributing
+# Contributing
 Contributions to the Book Search App are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
 
-Acknowledgments
+# Acknowledgments
 This project was inspired by the need to provide a simple and intuitive way for users to search for books and access relevant information.
 Special thanks to the Google Books API for providing the book data used in this application.
 Feel free to customize and expand this README file based on your specific project requirements and additional information you would like to include.
