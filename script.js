@@ -4,7 +4,7 @@ const bookList = document.getElementById('book-list');
 const loadingAnimation = document.getElementById('loading-animation');
 
 // Replace 'YOUR_API_KEY' with your actual Google API key
-const apiKey = 'AIzaSyDlwTB65-4Jo9v38UifdQBlacvZS5r6p-A';
+const apiKey = 'YOUR_API_KEY';
 
 searchButton.addEventListener('click', searchBooks);
 
@@ -23,11 +23,11 @@ function searchBooks() {
   fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
-      // loadingAnimation.classList.add('hidden');
+     
       displayBooks(data);
     })
     .catch(error => {
-      // loadingAnimation.classList.add('hidden');
+
       console.error('Error:', error);
     });
 }
